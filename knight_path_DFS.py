@@ -95,8 +95,6 @@ while stack.withdraw() != target:
             stack.push(next_move)
             visited.append(next_move)
             break
-    # if stack.withdraw() == current_square:
-    #     stack.pop()
 
 prev = ''
 for i in stack:
