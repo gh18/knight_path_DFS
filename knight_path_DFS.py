@@ -77,6 +77,7 @@ with open('in.txt') as file:
 # print(target_position)
 
 
+# squares where the pawn can beat the knight
 def get_illegal_squares(pawn_pos):
     square_1, square_2 = Square(pawn_pos.x - 1, pawn_pos.y - 1), Square(pawn_pos.x + 1, pawn_pos.y - 1)
     return square_1, square_2
